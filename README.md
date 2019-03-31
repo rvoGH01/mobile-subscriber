@@ -1,5 +1,5 @@
 # HOW TO RUN
-1. Get all the sources from "https://github.com/rvoGH01/mobile_subscriber"
+1. Get all the sources from "https://github.com/rvoGH01/mobile-subscriber"
 2. Tune "src/main/resources/application.yml" in order to get valid DB connection
 3. Execute "mvn clean install" to build the project
 4. Create database using SQL script "src/main/resources/mobile_subscriber.sql"
