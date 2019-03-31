@@ -15,3 +15,13 @@ spring:
     #generate-ddl: true
     # Hibernate ddl auto (create, create-drop, validate, update)
     hibernate.ddl-auto: update
+
+logging:
+  file: logs/mobile-subscriber.log
+  pattern:
+    console: "%d{HH:mm:ss.SSS} [%thread] %-5level %class{36}.%M:%L - %msg%n"
+    file: "%d{HH:mm:ss.SSS} [%thread] %-5level %class{36}.%M:%L - %msg%n"
+  level:
+    root: WARN
+    com.vodafone.mobile.controller: DEBUG
+    org.springframework.web: ERROR
